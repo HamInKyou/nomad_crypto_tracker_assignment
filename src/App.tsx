@@ -1,3 +1,4 @@
+import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import React, { useState } from "react";
 import styled, { ThemeProvider } from "styled-components";
 import GlobalStyle from "./GlobalStyle";
@@ -24,6 +25,7 @@ function App() {
     <div className="App">
       <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
         <GlobalStyle></GlobalStyle>
+        <ReactQueryDevtools initialIsOpen={true} />
         <Header>
           <ModeToggleBtn onClick={toggleTheme}>
             🔁{isDark ? "☀️" : "🌙"}
