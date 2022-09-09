@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/nomad_crypto_tracker_assignment/static/js/main.92ebfb70.js",
+    "main.js": "/nomad_crypto_tracker_assignment/static/js/main.f4ae736c.js",
     "index.html": "/nomad_crypto_tracker_assignment/index.html",
-    "main.92ebfb70.js.map": "/nomad_crypto_tracker_assignment/static/js/main.92ebfb70.js.map"
+    "main.f4ae736c.js.map": "/nomad_crypto_tracker_assignment/static/js/main.f4ae736c.js.map"
   },
   "entrypoints": [
-    "static/js/main.92ebfb70.js"
+    "static/js/main.f4ae736c.js"
   ]
 }
