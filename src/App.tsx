@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styled, { ThemeProvider } from "styled-components";
 import GlobalStyle from "./GlobalStyle";
+import Router from "./Router";
 import { lightTheme, darkTheme } from "./theme";
 
 const Header = styled.header`
@@ -28,7 +29,7 @@ function App() {
             🔁{isDark ? "☀️" : "🌙"}
           </ModeToggleBtn>
         </Header>
-        안녕
+        <Router />
       </ThemeProvider>
     </div>
   );
